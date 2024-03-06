@@ -5,4 +5,8 @@ export default defineNuxtConfig({
     componentDir: "./components/ui",
   },
   devtools: { enabled: true },
+  runtimeConfig: {
+    jurnalApiUrl: "",
+    jurnalApiKey: "",
+  },
 });
